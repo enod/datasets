@@ -84,7 +84,7 @@ REQUIRED_PKGS = [
     "importlib_metadata;python_version<'3.8'",
     # to save datasets locally or on any filesystem
     # minimum 2021.05.0 to have the AbstractArchiveFileSystem
-    "fsspec>=2021.05.0",
+    "fsspec>=2021.06.0",
     # To get datasets from the Datasets Hub on huggingface.co
     "huggingface_hub<0.1.0",
     # Utilities from PyPA to e.g., compare versions
